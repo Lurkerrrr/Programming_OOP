@@ -90,18 +90,21 @@ double DoubleInput()
 void menu()
 {
     Console.WriteLine("---------- Kalkulator ---------- \n1 Suma\n2 Roznica\n3 Iloczyn\n4 Iloraz\n5 Potegowanie\n6 Pierwiastek\n7 Trygonometria\n8 Wyjscie");
-    Console.WriteLine("wubierz opcje: ");
+    Console.WriteLine("Wybierz opcje: ");
     int choise = Convert.ToInt32(Console.ReadLine());
 
     switch (choise)
     {
-        case 1: Total(); break;             //Сумма
-        case 2: Difference(); break;        //Разность
-        case 3: ProductNumber(); break;     //Произведение
-        case 4: QuotientNumber(); break;    //Частное
-        case 5: PotentialNumber(); break;   //Степень
-        case 6: SquartilNumber(); break;    //Корень
-        case 7: Trigonometry(); break;    //Тригонометрические значения
+        case 1: Total(); break;             //Sum
+        case 2: Difference(); break;        //Difference
+        case 3: ProductNumber(); break;     //
+Product number 
+        case 4: QuotientNumber(); break;    //
+Quotient number 
+        case 5: PotentialNumber(); break;   //
+Potential number
+        case 6: SquartilNumber(); break;    //Root of a number
+        case 7: Trigonometry(); break;    //Trigonometric values
         case 8: Close(); break;
 
         default:
